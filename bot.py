@@ -60,4 +60,4 @@ async def on_message(message):
         await message.channel.send(hot_coins)
 
 if __name__ == '__main__':
-    client.run(os.environ["DISCORD-TOKEN"])
+    client.run(os.environ["DISCORD_TOKEN"])
