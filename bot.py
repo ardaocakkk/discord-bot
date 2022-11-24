@@ -59,4 +59,4 @@ async def on_message(message):
         hot_coins = token_prices.top_five_Coins()
         await message.channel.send(hot_coins)
 
-client.run(os.environ["DISCORD_TOKEN"])
+client.run(os.getenv("DISCORD_TOKEN"))
