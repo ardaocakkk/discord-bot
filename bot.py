@@ -59,5 +59,4 @@ async def on_message(message):
         hot_coins = token_prices.top_five_Coins()
         await message.channel.send(hot_coins)
 
-if __name__ == '__main__':
-    client.run(os.environ["DISCORD_TOKEN"])
+client.run(os.environ["DISCORD_TOKEN"])
