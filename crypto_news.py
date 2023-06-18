@@ -2,7 +2,7 @@ from newsapi import NewsApiClient
 
 
 def news():
-    newsapi = NewsApiClient(api_key='bd000bc34f484f419b1ebb74729a8a80')
+    newsapi = NewsApiClient(api_key='YOUR_API_KEY')
     # all_articles = newsapi.get_everything(q='bitcoin',
     #                                     sources='bbc-news,the-verge',
     #                                    domains='bbc.co.uk,techcrunch.com',
